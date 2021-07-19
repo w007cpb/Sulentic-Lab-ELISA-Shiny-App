@@ -1,5 +1,4 @@
 ###### INSTALL R PACKAGES ######
-options(repos = BiocManager::repositories())
 if (!require("shiny")) install.packages("shiny", repos="http://cran.us.r-project.org")
 if (!require("ggplot")) install.packages("ggplot", repos = "http://cran.us.r-project.org")
 if (!require("ggplot2")) install.packages("ggplot2", repos="http://cran.us.r-project.org")
